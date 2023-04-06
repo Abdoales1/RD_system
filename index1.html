@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/fontawesome-free-6.2.0-web/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/index1.css" />
+  <link rel="stylesheet" href="FFShamelFamily-SansOneBold.ttf" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>home screen</title>
+</head>
+
+<body dir="rtl">
+  <!-- top-head -->
+
+  <div class="head">
+    <h1>WAVE</h1>
+
+
+    <!-- the-list -->
+    <i class="fa-solid fa-bars" id="f" onclick="list()"></i>
+    <div class="the-list" id="t">
+      <i class="fa-regular fa-circle-xmark" id="clo"></i>
+      <div class="the-login">
+        <div class="conetent">
+          <h5> المشتريات </h5>
+          <h5> المبيعات </h5>
+          <h5>الفروع </h5>
+        </div>
+
+        <div class="l"></div>
+        <div class="the-list-mune">
+          <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+
+          <div class="names">
+            <span>مرحبا بك</span>
+            <span> الادمن</span>
+          </div>
+
+          <div class="icon2">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- the-list -->
+
+    <div class="the-login">
+      <div class="conetent">
+        <h5>المشتريات</h5>
+        <h5>المبيعات </h5>
+        <h5>الفروع </h5>
+      </div>
+
+      <div class="l"></div>
+
+      <div class="icon">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+
+      <div class="names">
+        <span>مرحبا بك</span>
+        <span> الادمن</span>
+      </div>
+
+      <div class="icon2">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- top-head -->
+
+
+  <div class="the-title">
+    <h4> الصفحة الرئيسيه</h4>
+    <!-- <span>العثور على نتائج 6</span> -->
+  </div>
+
+
+  <!-- the-mid -->
+  <div class="the-mid">
+    <button class="btn btn-primary">اضافة</button>
+    <div class="surch">
+
+      <i class="fa-solid fa-filter"></i>
+
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" name="" id="" placeholder="ابحث عن اي شي تحتاجه" />
+    </div>
+
+
+
+    <!--   cards     -->
+
+    <div class="cards">
+      <div class="row gy-3">
+        <div class="col-md-3">
+          <div class="card ">
+            <img src="images/ferary.jpg.jpg" class="card-img-top" alt="...">
+            <div class="card-body cbody">
+              <h5 class="card-title" style="text-align: right; font-weight: 700;">اسم التصميم</h5>
+              <p class="card-text">التاريخ</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="font-weight: 100;" id="first-button">عرض التفاصيل</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal"  style="font-weight: 100;" id="second-button">
+                حذف التصميم </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+
+    <div class="modal fade poop" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" dir="ltr">
+      <div class="modal-dialog">
+        <div class="modal-content pop" style="background-color: rgb(255, 255, 255);">
+          <div class="modal-header" style="background-color: white; ">
+            <h1 class="modal-title fs-5 modtitle" id="exampleModalLabel" style="background-color: white;">التفاصيل</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="background-color: white; border-radius: 16.26px; font-family: sans-serif;">
+            <img src="images/ferary.jpg.jpg" alt="no photo">
+            <div>
+            <input type="text" class="modinput">
+            <sapn style="background-color: white; " class="modalspan">اسم الموديل</span><br><br>
+              <input type="text" class="modinput">
+              <sapn style="background-color: white; " class="modalspan">نوع القماش</span><br><br>
+                <input type="text" class="modinput">
+                <sapn style="background-color: white;" class="modalspan">الكمية المطلوبة</span>
+                  
+                </div>
+          </div>
+          <div class="modal-footer">
+            <!-- <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                              <button type="button" class="btn btn-primary" >إنشاء</button> 
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="right: 50%;"></button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- the-mid -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    function list() {
+      document.getElementById("t").classList.add("show");
+    }
+    let clo = document.getElementById("clo");
+    clo.addEventListener("click", () => {
+      document.getElementById("t").classList.remove("show");
+
+    })
+  </script>
+</body>
+
+</html>
